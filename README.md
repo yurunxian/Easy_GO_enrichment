@@ -2,9 +2,12 @@
 
 This perl script is designed for (GO) enrichment analysis, using Fisher's exact test and FDR (False Discovery Rate) correction.
 
-You need to install the Text::NSP::Measures::2D::Fisher::right module first: cpan -i Text::NSP::Measures::2D::Fisher::right
+You need to install the Text::NSP::Measures::2D::Fisher::right module first:
+    
+    cpan -i Text::NSP::Measures::2D::Fisher::right
 
-    Usage:
+Usage:
+
     -b <backgroud>   a text file containing the GO term for each gene.
                      example:    GO:0005524    AT3G54180
                                  GO:0006468    AT3G54180
