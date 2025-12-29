@@ -6,6 +6,12 @@ You need to install the Text::NSP::Measures::2D::Fisher::right module first:
     
     cpan -i Text::NSP::Measures::2D::Fisher::right
 
+Or you can install the module manually:
+
+    tar -xf Text-NSP-1.31.tar.gz && cd Text-NSP-1.31
+    perl Makefile.PL && make
+    make install
+
 Usage:
 
     -b <backgroud>   a text file containing the GO term for each gene.
